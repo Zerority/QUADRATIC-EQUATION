@@ -34,7 +34,6 @@ def solving_equation():
 
         label_show.config(text=result, fg="#2E7D32", font=("Times New Roman", 30, "bold"))
     except ValueError:
-        # Bẫy lỗi nếu người dùng nhập chữ cái hoặc bỏ trống ô dữ liệu
         messagebox.showerror("Input error", "Please enter the coefficients a, b, and c in numerical form!")
 
 #Tkinter
